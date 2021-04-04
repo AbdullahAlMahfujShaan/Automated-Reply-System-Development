@@ -30,6 +30,7 @@ mccabe==0.6.1
 mistune 
 mkl-fft== 1.0.6
 mkl-random==1.0.1
+mkl-service==none
 nbclient
 nbconvert
 nbformat
@@ -53,7 +54,7 @@ pyparsing==2.4.7
 pyrsistent 
 python-dateutil==2.8.1
 pytz 
-pywin32==300
+pywin32==none
 pywinpty 
 pyzmq 
 regex==2020.11.13
