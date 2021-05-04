@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*, html {
+    /*
+    --primaryGradient: linear-gradient(93.12deg, #581B98 0.52%, #9C1DE7 100%);
+    --secondaryGradient: linear-gradient(268.91deg, #581B98 -2.14%, #9C1DE7 99.69%);
+    --primaryBoxShadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    --secondaryBoxShadow: 0px -10px 15px rgba(0, 0, 0, 0.1);
+    --light: 300;
+    --regular: 400;
+    --semiBold: 600;
+    --extraLight: 300;
+    --italic: 300;
+    */
+    --primary: #0085b2;
+}
+
+/* Header of page */
+
+body {
+    height: calc(100vh - 32px);
+    font-family: Roboto, sans-serif;
+    margin: 0px;
+    background: #87ceeb
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6rem;
+    z-index: 1;
+    background: -webkit-linear-gradient(left, #ff3e51, #0b9dff);
+}
+
+
+/*page logo*/
+.container-fluid {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Chat box  */
+.chatbox {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+
+/* Content is close */
+.chatbox-support {
+    background: #f9f9f9;
+    height: 450px;
+    width: 350px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    z-index: -123456;
+    opacity: 0;
+    transition: all .5s ease-in-out;
+}
+
+
+/* Header */
+.chatbox-head {
+    background: -webkit-linear-gradient(left, #0085b2, darkturquoise);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: var(--primaryBoxShadow);
+}
+
+
+/*User input box*/
+.input-message {
+    padding: 8px 24px;
+    flex-grow: 1;
+    margin: 0px 8px 0px 0px;
+    border-radius: 24px;
+    border: none;
+    box-shadow: 0 10px 16px 0 rgba(255, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-message:focus {
+    outline: none;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.input-div {
+    height: 48px;
+    width: calc(100% - 00px);
+    margin: 16px;
+    display: flex;
+}
+
+
+/*Send button design*/
+.input-send {
+    background: #0085b2;
+    width: 48px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.input-send:hover {
+    cursor: pointer;
+    box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
+
+.input-send svg {
+    fill: white;
+    margin: 11px 8px;
+}
+
+
+/*Chatbot name*/
+.chatbox-heading-header {
+    font-size: 1.2rem;
+    color: white;
+}
+
+
+/* Messages */
+.chatbox-messages {
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    flex-direction: column-reverse;
+    padding: 0 20px;
+
+}
+
+.messages {
+    margin-top: 10px;
+    background: #E0E0E0;
+    padding: 8px 12px;
+    max-width: 70%;
+    width: fit-content;
+}
+
+
+/* Bot reply */
+.messages-from-bot {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: auto;
+}
+
+
+/* user input */
+.messages-from-user {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background: var(--primary);
+    color: white;
+    margin-left: auto;
+}
+
+
+/*chatbot button */
+.chatbox-button {
+    text-align: right;
+
+}
+
+.chatbox-button button,
+.chatbox-button button:focus,
+.chatbox-button button:visited {
+    padding: 10px;
+    background: white;
+    border: none;
+    outline: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+/* Content is open */
+.chatbox-active {
+    transform: translateY(-40px);
+    z-index: 123456;
+    opacity: 1;
+
+}
