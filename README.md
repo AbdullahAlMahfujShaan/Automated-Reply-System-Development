@@ -40,6 +40,6 @@ After the user selects the preferred food, the app takes it to another screen, w
 ## Featured Photos
 
 #### Landing Page
-![login screen](https://github.com/NSU-FA20-CSE486-1/1721275_FA2020_CSE486.1/blob/main/AndroidProject/Project%20Screenshots/landing_page.jpg)
+![login screen]()
 
 ## Getting Started (Documentation)
