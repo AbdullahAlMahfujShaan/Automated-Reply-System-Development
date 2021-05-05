@@ -14,11 +14,11 @@
 <p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:abdullah.mahfuj@northsouth.edu">abdullah.mahfuj@northsouth.edu</a></p>
 <p align="center"><strong>Name</strong><strong>:</strong> Monsur Hillas</p>
 <p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1721911042</p>
-<p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:monsur.hillas@northsouth.edu">abdullah.mahfuj@northsouth.edu</a></p>
+<p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:monsur.hillas@northsouth.edu">monsur.hillas@northsouth.edu</a></p>
 <p align="center"><strong>Name</strong><strong>:</strong> Md. Jubaer Khan</p>
 <p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1721616042</p>
-<p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:jubaer.khan@northsouth.edu">abdullah.mahfuj@northsouth.edu</a></p>
-<p align="center"><strong>Git Repository</strong><strong>: </strong><a href="https://github.com/AbdullahAlMahfujShaan/Automated-Reply-System-Development">https://github.com/NSU-FA20-CSE486-1/1721275_FA2020_CSE486.1</a></p>
+<p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:jubaer.khan@northsouth.edu">jubaer.khan@northsouth.edu</a></p>
+<p align="center"><strong>Git Repository</strong><strong>: </strong><a href="https://github.com/AbdullahAlMahfujShaan/Automated-Reply-System-Development">https://github.com/AbdullahAlMahfujShaan/Automated-Reply-System-Development</a></p>
 <p align="center"><strong>Date Prepared</strong><strong>: </strong>05/05/2021</p>
 <p><strong>&nbsp;</strong></p>
 <p><strong>&nbsp;</strong></p>
