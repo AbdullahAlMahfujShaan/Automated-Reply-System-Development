@@ -26,20 +26,23 @@
 <p>Still Testing</p>
 <p><strong>FEATURES</strong></p>
 <li>Landing Page</li>
-In this feature, the user gets direct access to food without signing up. The user can just select and order food from here.
-<li>Order Page</li>
-After the user selects the preferred food, the app takes it to another screen, where the user writes his name and phone number.
+
+<li>Chat Widget</li>
 
 <p><strong>DATA MANAGEMENT</strong></p>
 <p></p>
 <p><strong>DESIGN PATTERN</strong></p>
 <p></p>
 <p><strong>ROAD BLOCKS</strong></p>
-<p> </p>
+<p></p>
 
 ## Featured Photos
 
 #### Landing Page
 ![login screen]()
 
-## Getting Started (Documentation)
+## Getting Started
+
+###Required Softwares
+- [PyCharm IDE] - for Python based projects or any other equivalent
+- [Anaconda Navigator] - the open-source Individual Edition (Distribution) is the easiest way to perform Python/R data science and machine learning on a single machine. 
