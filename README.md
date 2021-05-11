@@ -43,7 +43,7 @@
 
 ## Getting Started
 
-### Required Softwares
+## Required Softwares
 - [PyCharm IDE] - for Python based projects or any other equivalent
 - [Anaconda Navigator] - the open-source Individual Edition (Distribution) is the easiest way to perform Python/R data science and machine learning on a single machine. 
 
@@ -56,33 +56,40 @@ cd dillinger
 npm i
 node app
 ```
+After we create the virtual environment we must activate it:
+
+```sh
+cd dillinger
+npm i
+node app
+```
 
 Install Tensorflow CPU
 
 Note: If you have a CUDA Enabled environment you can install Tensorflow GPU, but in that case this code will not work, as this is developed using CPU.
+
 ```sh
 npm install --production
 NODE_ENV=production node app
 ```
 
 Install NLTK
+
 ```sh
 npm install --production
 NODE_ENV=production node app
 ```
 
-## License
+## Getting the repository
 
-MIT
+This repository can be downloaded and also cloned by the following steps, you can try either.
+[git](https://git-scm.com/) repository:
+
+    git clone https://github.com/AbdullahAlMahfujShaan/Automated-Reply-System-Development
+
+or [download a zip archive](https://github.com/AbdullahAlMahfujShaan/Automated-Reply-System-Development).
 
 **Goodluck!!!**
-
-
-
-
-
-
-
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen.)
 
