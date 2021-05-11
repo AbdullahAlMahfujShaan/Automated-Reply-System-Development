@@ -89,6 +89,15 @@ This repository can be downloaded and also cloned by the following steps, you ca
 
 or [download a zip archive](https://github.com/AbdullahAlMahfujShaan/Automated-Reply-System-Development).
 
+
+## Folder Tree
+- static : this folder contains the css and js scripting files
+- templates : this folder contains the HTML scripts for the frontend
+- chatbot.py : this is the code for the model
+- intents.json : dataset for training the model
+- main.py : main file for running the whole project, it contains the flask api code.
+- model.h5 : output created by running chatbot.py which is then used by main.py to use it for the project.
+
 **Goodluck!!!**
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen.)
