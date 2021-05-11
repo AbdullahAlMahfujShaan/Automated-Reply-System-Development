@@ -58,6 +58,7 @@ node app
 ```
 
 Install Tensorflow CPU
+
 Note: If you have a CUDA Enabled environment you can install Tensorflow GPU, but in that case this code will not work, as this is developed using CPU.
 ```sh
 npm install --production
