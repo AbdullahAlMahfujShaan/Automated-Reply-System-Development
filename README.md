@@ -51,23 +51,27 @@
 
 Create virtual environment using Anaconda Prompt for developing the project. 
 
-```conda create --name YOURENVNAME python=3.8 anaconda
+```
+conda create --name YOURENVNAME python=3.8 anaconda
 ```
 After we create the virtual environment we must activate it:
 
-```conda activate YOURENVNAME
+```
+conda activate YOURENVNAME
 ```
 
 Install Tensorflow CPU
 
 Note: If you have a CUDA Enabled environment you can install Tensorflow GPU, but in that case this code will not work, as this is developed using CPU.
 
-```pip install tensorflow-cpu
+```
+pip install tensorflow-cpu
 ```
 
 Install NLTK
 
-```pip install nltk
+```
+pip install nltk
 ```
 
 ## Getting the repository
