@@ -43,6 +43,20 @@
 
 ## Getting Started
 
-###Required Softwares
+### Required Softwares
 - [PyCharm IDE] - for Python based projects or any other equivalent
 - [Anaconda Navigator] - the open-source Individual Edition (Distribution) is the easiest way to perform Python/R data science and machine learning on a single machine. 
+
+
+
+
+
+
+
+
+
+[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen.)
+
+ 
+   [PyCharm IDE]: <https://www.jetbrains.com/pycharm/>
+   [Anaconda Navigator]: <https://www.anaconda.com/products/individual>
