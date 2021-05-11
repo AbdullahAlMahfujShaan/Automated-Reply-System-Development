@@ -51,33 +51,23 @@
 
 Create virtual environment using Anaconda Prompt for developing the project. 
 
-```sh
-cd dillinger
-npm i
-node app
+```conda create --name YOURENVNAME python=3.8 anaconda
 ```
 After we create the virtual environment we must activate it:
 
-```sh
-cd dillinger
-npm i
-node app
+```conda activate YOURENVNAME
 ```
 
 Install Tensorflow CPU
 
 Note: If you have a CUDA Enabled environment you can install Tensorflow GPU, but in that case this code will not work, as this is developed using CPU.
 
-```sh
-npm install --production
-NODE_ENV=production node app
+```pip install tensorflow-cpu
 ```
 
 Install NLTK
 
-```sh
-npm install --production
-NODE_ENV=production node app
+```pip install nltk
 ```
 
 ## Getting the repository
