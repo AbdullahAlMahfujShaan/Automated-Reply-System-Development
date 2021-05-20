@@ -22,24 +22,6 @@
 <p align="center"><strong>Date Prepared</strong><strong>: </strong>05/05/2021</p>
 <p><strong>&nbsp;</strong></p>
 <p><strong>&nbsp;</strong></p>
-<p><strong>INTRODUCTION</strong></p>
-<p>Still Testing</p>
-<p><strong>FEATURES</strong></p>
-<li>Landing Page</li>
-
-<li>Chat Widget</li>
-
-<p><strong>DATA MANAGEMENT</strong></p>
-<p></p>
-<p><strong>DESIGN PATTERN</strong></p>
-<p></p>
-<p><strong>ROAD BLOCKS</strong></p>
-<p></p>
-
-## Featured Photos
-
-#### Landing Page
-![login screen]()
 
 ## Getting Started
 
