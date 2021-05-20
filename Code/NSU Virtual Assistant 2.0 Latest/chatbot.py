@@ -74,7 +74,7 @@ model.add(tf.keras.layers.Dense(len(output[0]), activation="softmax"))
 def train():
 
     model.compile(optimizer="adam", loss="categorical_crossentropy", metrics=["accuracy"])
-    model.fit(training, output, epochs=500, batch_size=256)
+    model.fit(training, output, epochs=10000, batch_size=256)
     model.save('model.h5')
 
 #If model.h5 is saved then the file wont update it again.
