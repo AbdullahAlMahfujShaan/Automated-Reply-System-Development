@@ -23,7 +23,7 @@
 <p><strong>&nbsp;</strong></p>
 <p><strong>&nbsp;</strong></p>
 
-## Getting Started
+## Getting Started (Windows)
 
 ## Required Softwares
 - [PyCharm IDE] - for Python based projects or any other equivalent
@@ -56,6 +56,88 @@ Install NLTK
 pip install nltk
 ```
 
+
+## Getting Started (Linux)
+
+## Required Softwares
+- [PyCharm IDE] - for Python based projects or any other equivalent
+- [Anaconda Navigator Linux] - the open-source Individual Edition (Distribution) is the easiest way to perform Python/R data science and machine learning on a single machine. 
+
+## Installation
+### Anaconda Installation
+Download Anaconda (Check Latest Version before downloading)
+
+```
+wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
+```
+Run Anaconda3 Installation Script on Ubuntu or CentOS
+If you have downloaded it using the browser, then the installation script will automatically go to Downloads folder thus switch to that. Or to the folder where you have saved it.
+
+```
+cd Downloads
+```
+
+```
+ls
+```
+Now, use the following syntax
+
+```
+./filename
+```
+or
+
+```
+bash filename
+```
+
+The filename is the name of the Anaconda Linux installation script. In our case it was Anaconda3-2020.07-Linux-x86_64.sh, thus the command will be:
+
+```
+./Anaconda3-2020.07-Linux-x86_64.sh
+```
+
+or
+
+```
+bash Anaconda3-2020.07-Linux-x86_64.sh
+```
+
+Accept the terms and conditions
+The installer will ask you to accept the terms and conditions, that would be a long list. So, if you don’t want to go through it, simply press Ctrl+C and then press Y to accept that.
+
+```
+wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh
+```
+
+Create virtual environment using Anaconda Prompt for developing the project. 
+
+```
+conda create --name YOURENVNAME python=3.8 anaconda
+```
+After we create the virtual environment we must activate it:
+
+```
+conda activate YOURENVNAME
+```
+
+Install Tensorflow CPU
+
+Note: If you have a CUDA Enabled environment you can install Tensorflow GPU, but in that case this code will not work, as this is developed using CPU.
+
+```
+pip install tensorflow-cpu
+```
+
+Install NLTK
+
+```
+pip install nltk
+```
+
+At the beginning the project will give an error to download 'punkt' to resolve this error go to chatbot.py and comment out 'nltk.download('punkt')'
+Run this for once and comment it again.
+
 ## Getting the repository
 
 This repository can be downloaded and also cloned by the following steps, you can try either.
@@ -81,3 +163,4 @@ or [download a zip archive](https://github.com/AbdullahAlMahfujShaan/Automated-R
  
    [PyCharm IDE]: <https://www.jetbrains.com/pycharm/>
    [Anaconda Navigator]: <https://www.anaconda.com/products/individual>
+   [Anaconda Navigator Linux]: https://docs.anaconda.com/anaconda/install/linux/
